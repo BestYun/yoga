@@ -23,7 +23,7 @@ podspec = Pod::Spec.new do |spec|
   spec.ios.frameworks = 'UIKit'
   spec.module_name = 'YogaKit'
   # spec.dependency 'Yoga', "~> #{spec.version.to_s}"
-  spec.dependency 'Yoga',  :git => 'https://github.com/BestYun/yoga.git', :tag => "v#{spec.version.to_s}",
+  spec.dependency 'Yoga',  :git => 'https://github.com/BestYun/yoga.git', :tag => "v#{spec.version.to_s}"
 
   spec.source_files = 'YogaKit/Source/*.{h,m,swift}'
   spec.public_header_files = 'YogaKit/Source/{YGLayout,UIView+Yoga}.h'
