@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
 
   spec.authors = {'Meta Open Source' => 'opensource@meta.com'}
   spec.source = {
-    :git => 'https://github.com/facebook/yoga.git',
+    :git => 'https://github.com/BestYun/yoga.git',
     :tag => "v#{spec.version.to_s}",
   }
 
-  spec.ios.deployment_target = "13.4"
+  spec.ios.deployment_target = "9.0"
 
   spec.module_name = 'yoga'
   spec.requires_arc = false

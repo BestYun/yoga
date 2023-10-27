@@ -2,6 +2,14 @@
 
 Yoga is an embeddable and performant flexbox layout engine with bindings for multiple languages.
 
+## iOS
+### Installation
+---
+#### Cocoapods
+```
+pod 'YogaKit', :git => 'https://github.com/BestYun/yoga.git', :tag => '2.0.0'
+```
+
 
 ## Building
 Yoga's main implementation targets C++ 20 with accompanying build logic in CMake. A wrapper is provided to build the main library and run unit tests.
