@@ -16,16 +16,6 @@
 		40BD9F501E479079002790A9 /* SingleLabelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F4F1E479079002790A9 /* SingleLabelCollectionCell.swift */; };
 		40BD9F521E479173002790A9 /* LayoutInclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F511E479173002790A9 /* LayoutInclusionViewController.swift */; };
 		638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A94471E1F06D100A726AD /* ExamplesViewController.swift */; };
-		AED4D2602A934967007687B0 /* FlexLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2492A934967007687B0 /* FlexLayoutProtocol.swift */; };
-		AED4D2612A934967007687B0 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D24A2A934967007687B0 /* FlexView.swift */; };
-		AED4D2622A934967007687B0 /* UIView+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D24B2A934967007687B0 /* UIView+Chain.swift */; };
-		AED4D2632A934967007687B0 /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D24C2A934967007687B0 /* FlexViewBuilder.swift */; };
-		AED4D2642A934967007687B0 /* FlexDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D24D2A934967007687B0 /* FlexDSL.swift */; };
-		AED4D2652A934967007687B0 /* UIView+FlexLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D24E2A934967007687B0 /* UIView+FlexLayout.swift */; };
-		AED4D2662A934967007687B0 /* FChainKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2502A934967007687B0 /* FChainKit.swift */; };
-		AED4D2672A934967007687B0 /* FViweChainKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2512A934967007687B0 /* FViweChainKit.swift */; };
-		AED4D2682A934968007687B0 /* FText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2532A934967007687B0 /* FText.swift */; };
-		AED4D2692A934968007687B0 /* FScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2542A934967007687B0 /* FScrollView.swift */; };
 		AED4D26A2A934968007687B0 /* RCTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2572A934967007687B0 /* RCTableViewViewController.swift */; };
 		AED4D26B2A934968007687B0 /* FlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2582A934967007687B0 /* FlexViewController.swift */; };
 		AED4D26C2A934968007687B0 /* RCScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2592A934967007687B0 /* RCScrollViewController.swift */; };
@@ -84,16 +74,6 @@
 		638A94471E1F06D100A726AD /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		638A944F1E215CC800A726AD /* YogaKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F0896A88112E957EF37C7F /* Pods-YogaKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaKitSample/Pods-YogaKitSample.release.xcconfig"; sourceTree = "<group>"; };
-		AED4D2492A934967007687B0 /* FlexLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexLayoutProtocol.swift; sourceTree = "<group>"; };
-		AED4D24A2A934967007687B0 /* FlexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexView.swift; sourceTree = "<group>"; };
-		AED4D24B2A934967007687B0 /* UIView+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Chain.swift"; sourceTree = "<group>"; };
-		AED4D24C2A934967007687B0 /* FlexViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewBuilder.swift; sourceTree = "<group>"; };
-		AED4D24D2A934967007687B0 /* FlexDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexDSL.swift; sourceTree = "<group>"; };
-		AED4D24E2A934967007687B0 /* UIView+FlexLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FlexLayout.swift"; sourceTree = "<group>"; };
-		AED4D2502A934967007687B0 /* FChainKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FChainKit.swift; sourceTree = "<group>"; };
-		AED4D2512A934967007687B0 /* FViweChainKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FViweChainKit.swift; sourceTree = "<group>"; };
-		AED4D2532A934967007687B0 /* FText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FText.swift; sourceTree = "<group>"; };
-		AED4D2542A934967007687B0 /* FScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FScrollView.swift; sourceTree = "<group>"; };
 		AED4D2572A934967007687B0 /* RCTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTableViewViewController.swift; sourceTree = "<group>"; };
 		AED4D2582A934967007687B0 /* FlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewController.swift; sourceTree = "<group>"; };
 		AED4D2592A934967007687B0 /* RCScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCScrollViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				AED4D2552A934967007687B0 /* Demo */,
-				AED4D2472A934967007687B0 /* FlexKit */,
 				13687D451DF8748400E7C260 /* YogaKitSample */,
 				13687D441DF8748400E7C260 /* Products */,
 				13687D831DF87D1E00E7C260 /* Frameworks */,
@@ -186,47 +165,6 @@
 				40BD9F4F1E479079002790A9 /* SingleLabelCollectionCell.swift */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		AED4D2472A934967007687B0 /* FlexKit */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2482A934967007687B0 /* Core */,
-				AED4D24F2A934967007687B0 /* FChainKit */,
-				AED4D2522A934967007687B0 /* view */,
-			);
-			path = FlexKit;
-			sourceTree = "<group>";
-		};
-		AED4D2482A934967007687B0 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2492A934967007687B0 /* FlexLayoutProtocol.swift */,
-				AED4D24A2A934967007687B0 /* FlexView.swift */,
-				AED4D24B2A934967007687B0 /* UIView+Chain.swift */,
-				AED4D24C2A934967007687B0 /* FlexViewBuilder.swift */,
-				AED4D24D2A934967007687B0 /* FlexDSL.swift */,
-				AED4D24E2A934967007687B0 /* UIView+FlexLayout.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		AED4D24F2A934967007687B0 /* FChainKit */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2502A934967007687B0 /* FChainKit.swift */,
-				AED4D2512A934967007687B0 /* FViweChainKit.swift */,
-			);
-			path = FChainKit;
-			sourceTree = "<group>";
-		};
-		AED4D2522A934967007687B0 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2532A934967007687B0 /* FText.swift */,
-				AED4D2542A934967007687B0 /* FScrollView.swift */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		AED4D2552A934967007687B0 /* Demo */ = {
@@ -389,17 +327,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YogaKitSample/Pods-YogaKitSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexBoxYoga/yoga.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListDiffKit/IGListDiffKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
-				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListDiffKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -413,28 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED4D2602A934967007687B0 /* FlexLayoutProtocol.swift in Sources */,
 				AED4D26A2A934968007687B0 /* RCTableViewViewController.swift in Sources */,
-				AED4D2692A934968007687B0 /* FScrollView.swift in Sources */,
-				AED4D2612A934967007687B0 /* FlexView.swift in Sources */,
 				AED4D2702A934968007687B0 /* YogaKitNativeViewController.swift in Sources */,
 				40BD9F501E479079002790A9 /* SingleLabelCollectionCell.swift in Sources */,
 				AED4D26D2A934968007687B0 /* MainViewController.swift in Sources */,
 				40BD9F521E479173002790A9 /* LayoutInclusionViewController.swift in Sources */,
-				AED4D2642A934967007687B0 /* FlexDSL.swift in Sources */,
 				AED4D26F2A934968007687B0 /* RCTableViewViewController2.swift in Sources */,
 				AED4D2712A934968007687B0 /* SecondViewController.swift in Sources */,
-				AED4D2632A934967007687B0 /* FlexViewBuilder.swift in Sources */,
 				AED4D26C2A934968007687B0 /* RCScrollViewController.swift in Sources */,
-				AED4D2622A934967007687B0 /* UIView+Chain.swift in Sources */,
-				AED4D2662A934967007687B0 /* FChainKit.swift in Sources */,
-				AED4D2672A934967007687B0 /* FViweChainKit.swift in Sources */,
 				AED4D26E2A934968007687B0 /* RCFlexLayoutPreservingOriginViewController.swift in Sources */,
 				AED4D2722A934968007687B0 /* RCFPSLabel.swift in Sources */,
-				AED4D2682A934968007687B0 /* FText.swift in Sources */,
 				638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */,
 				40BD9F4B1E47850C002790A9 /* BasicViewController.swift in Sources */,
-				AED4D2652A934967007687B0 /* UIView+FlexLayout.swift in Sources */,
 				40BD9F461E477A09002790A9 /* AppDelegate.swift in Sources */,
 				AED4D26B2A934968007687B0 /* FlexViewController.swift in Sources */,
 			);

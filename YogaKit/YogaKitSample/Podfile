@@ -4,7 +4,7 @@ platform :ios, "13.4"
 
 target 'YogaKitSample' do
   pod 'YogaKit', :path => '../../YogaKit.podspec'
-  pod 'Yoga', :path => '../../Yoga.podspec'
+#  pod 'FlexBoxYoga', :path => '../../FlexBoxYoga.podspec'
   pod 'IGListKit', '~> 4.0.0'
   
 end

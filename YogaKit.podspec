@@ -9,7 +9,7 @@ podspec = Pod::Spec.new do |spec|
   spec.license =  { :type => 'MIT', :file => "LICENSE" }
   spec.homepage = 'https://yogalayout.com/'
   spec.documentation_url = 'https://yogalayout.com/docs'
-  spec.deprecated = true
+  # spec.deprecated = true
 
   spec.summary = 'YogaKit allows using the Yoga layout engine in combination with UIKit'
 
@@ -23,7 +23,7 @@ podspec = Pod::Spec.new do |spec|
   spec.ios.frameworks = 'UIKit'
   spec.module_name = 'YogaKit'
   # spec.dependency 'Yoga', "~> #{spec.version.to_s}"
-  spec.dependency 'Yoga',  :git => 'https://github.com/BestYun/yoga.git', :tag => "v#{spec.version.to_s}"
+  # spec.dependency 'Yoga',  :git => 'https://github.com/BestYun/yoga.git', :tag => "v#{spec.version.to_s}"
 
   spec.source_files = 'YogaKit/Source/*.{h,m,swift}'
   spec.public_header_files = 'YogaKit/Source/{YGLayout,UIView+Yoga}.h'
