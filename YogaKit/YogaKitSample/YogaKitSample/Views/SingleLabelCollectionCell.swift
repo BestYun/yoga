@@ -6,7 +6,7 @@
  */
 
 import UIKit
-import YogaKit
+import FlexBoxYogaKit
 
 final class SingleLabelCollectionCell: UICollectionViewCell {
     let label: UILabel = UILabel(frame: .zero)

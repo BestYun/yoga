@@ -6,7 +6,7 @@
  */
 
 import UIKit
-import YogaKit
+import FlexBoxYogaKit
 
 final class LayoutInclusionViewController: UIViewController {
     private let button: UIButton = UIButton(type: .system)

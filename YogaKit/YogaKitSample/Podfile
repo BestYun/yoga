@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, "13.4"
 
 target 'YogaKitSample' do
-  pod 'YogaKit', :path => '../../YogaKit.podspec'
-#  pod 'FlexBoxYoga', :path => '../../FlexBoxYoga.podspec'
+  pod 'FlexBoxYogaKit', :path => '../../FlexBoxYogaKit.podspec'
+  pod 'FlexBoxYoga', :path => '../../FlexBoxYoga.podspec'
   pod 'IGListKit', '~> 4.0.0'
   
 end

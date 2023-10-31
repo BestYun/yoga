@@ -6,7 +6,7 @@
  */
 
 import UIKit
-import YogaKit
+import FlexBoxYogaKit
 
 final class BasicViewController: UIViewController {
     override func viewDidLoad() {

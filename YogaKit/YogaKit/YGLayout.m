@@ -347,7 +347,7 @@ YG_EDGE_PROPERTY(gap, Gap, Gap, YGGutterAll)
 #pragma mark - Private
 
 static YGSize YGMeasureView(
-    YGNodeRef node,
+    YGNodeConstRef node,
     float width,
     YGMeasureMode widthMode,
     float height,
