@@ -16,15 +16,6 @@
 		40BD9F501E479079002790A9 /* SingleLabelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F4F1E479079002790A9 /* SingleLabelCollectionCell.swift */; };
 		40BD9F521E479173002790A9 /* LayoutInclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F511E479173002790A9 /* LayoutInclusionViewController.swift */; };
 		638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A94471E1F06D100A726AD /* ExamplesViewController.swift */; };
-		AED4D26A2A934968007687B0 /* RCTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2572A934967007687B0 /* RCTableViewViewController.swift */; };
-		AED4D26B2A934968007687B0 /* FlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2582A934967007687B0 /* FlexViewController.swift */; };
-		AED4D26C2A934968007687B0 /* RCScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D2592A934967007687B0 /* RCScrollViewController.swift */; };
-		AED4D26D2A934968007687B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25A2A934967007687B0 /* MainViewController.swift */; };
-		AED4D26E2A934968007687B0 /* RCFlexLayoutPreservingOriginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25B2A934967007687B0 /* RCFlexLayoutPreservingOriginViewController.swift */; };
-		AED4D26F2A934968007687B0 /* RCTableViewViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25C2A934967007687B0 /* RCTableViewViewController2.swift */; };
-		AED4D2702A934968007687B0 /* YogaKitNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25D2A934967007687B0 /* YogaKitNativeViewController.swift */; };
-		AED4D2712A934968007687B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25E2A934967007687B0 /* SecondViewController.swift */; };
-		AED4D2722A934968007687B0 /* RCFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED4D25F2A934967007687B0 /* RCFPSLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,15 +65,6 @@
 		638A94471E1F06D100A726AD /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		638A944F1E215CC800A726AD /* YogaKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F0896A88112E957EF37C7F /* Pods-YogaKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaKitSample/Pods-YogaKitSample.release.xcconfig"; sourceTree = "<group>"; };
-		AED4D2572A934967007687B0 /* RCTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTableViewViewController.swift; sourceTree = "<group>"; };
-		AED4D2582A934967007687B0 /* FlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewController.swift; sourceTree = "<group>"; };
-		AED4D2592A934967007687B0 /* RCScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCScrollViewController.swift; sourceTree = "<group>"; };
-		AED4D25A2A934967007687B0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AED4D25B2A934967007687B0 /* RCFlexLayoutPreservingOriginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCFlexLayoutPreservingOriginViewController.swift; sourceTree = "<group>"; };
-		AED4D25C2A934967007687B0 /* RCTableViewViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTableViewViewController2.swift; sourceTree = "<group>"; };
-		AED4D25D2A934967007687B0 /* YogaKitNativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaKitNativeViewController.swift; sourceTree = "<group>"; };
-		AED4D25E2A934967007687B0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		AED4D25F2A934967007687B0 /* RCFPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCFPSLabel.swift; sourceTree = "<group>"; };
 		C80A931E90C7F3088CB86822 /* Pods_YogaKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,7 +92,6 @@
 		13687D3A1DF8748300E7C260 = {
 			isa = PBXGroup;
 			children = (
-				AED4D2552A934967007687B0 /* Demo */,
 				13687D451DF8748400E7C260 /* YogaKitSample */,
 				13687D441DF8748400E7C260 /* Products */,
 				13687D831DF87D1E00E7C260 /* Frameworks */,
@@ -165,30 +146,6 @@
 				40BD9F4F1E479079002790A9 /* SingleLabelCollectionCell.swift */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		AED4D2552A934967007687B0 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2562A934967007687B0 /* Controller */,
-				AED4D25F2A934967007687B0 /* RCFPSLabel.swift */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		AED4D2562A934967007687B0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AED4D2572A934967007687B0 /* RCTableViewViewController.swift */,
-				AED4D2582A934967007687B0 /* FlexViewController.swift */,
-				AED4D2592A934967007687B0 /* RCScrollViewController.swift */,
-				AED4D25A2A934967007687B0 /* MainViewController.swift */,
-				AED4D25B2A934967007687B0 /* RCFlexLayoutPreservingOriginViewController.swift */,
-				AED4D25C2A934967007687B0 /* RCTableViewViewController2.swift */,
-				AED4D25D2A934967007687B0 /* YogaKitNativeViewController.swift */,
-				AED4D25E2A934967007687B0 /* SecondViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		E1C759E3C8E84821213ECE8D /* Pods */ = {
@@ -327,13 +284,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YogaKitSample/Pods-YogaKitSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexBoxYoga/yoga.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListDiffKit/IGListDiffKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListDiffKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -347,20 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED4D26A2A934968007687B0 /* RCTableViewViewController.swift in Sources */,
-				AED4D2702A934968007687B0 /* YogaKitNativeViewController.swift in Sources */,
 				40BD9F501E479079002790A9 /* SingleLabelCollectionCell.swift in Sources */,
-				AED4D26D2A934968007687B0 /* MainViewController.swift in Sources */,
 				40BD9F521E479173002790A9 /* LayoutInclusionViewController.swift in Sources */,
-				AED4D26F2A934968007687B0 /* RCTableViewViewController2.swift in Sources */,
-				AED4D2712A934968007687B0 /* SecondViewController.swift in Sources */,
-				AED4D26C2A934968007687B0 /* RCScrollViewController.swift in Sources */,
-				AED4D26E2A934968007687B0 /* RCFlexLayoutPreservingOriginViewController.swift in Sources */,
-				AED4D2722A934968007687B0 /* RCFPSLabel.swift in Sources */,
 				638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */,
 				40BD9F4B1E47850C002790A9 /* BasicViewController.swift in Sources */,
 				40BD9F461E477A09002790A9 /* AppDelegate.swift in Sources */,
-				AED4D26B2A934968007687B0 /* FlexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

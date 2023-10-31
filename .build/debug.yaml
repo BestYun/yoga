@@ -1,0 +1,146 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "core-debug.module": ["<core-debug.module>"]
+  "main": ["<core-debug.module>"]
+  "test": ["<core-debug.module>"]
+default: "main"
+nodes:
+  "/Users/yun/Desktop/GitHubProject/yoga/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/YGEnums.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.o"]
+    description: "Compiling core yoga/YGEnums.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/YGEnums.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/YGValue.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.o"]
+    description: "Compiling core yoga/YGValue.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/YGValue.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/Yoga.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.o"]
+    description: "Compiling core yoga/Yoga.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/Yoga.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/Baseline.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.o"]
+    description: "Compiling core yoga/algorithm/Baseline.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/Baseline.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/Cache.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.o"]
+    description: "Compiling core yoga/algorithm/Cache.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/Cache.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/CalculateLayout.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.o"]
+    description: "Compiling core yoga/algorithm/CalculateLayout.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/CalculateLayout.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/FlexLine.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.o"]
+    description: "Compiling core yoga/algorithm/FlexLine.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/FlexLine.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/PixelGrid.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.o"]
+    description: "Compiling core yoga/algorithm/PixelGrid.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/algorithm/PixelGrid.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/config/Config.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.o"]
+    description: "Compiling core yoga/config/Config.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/config/Config.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/AssertFatal.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.o"]
+    description: "Compiling core yoga/debug/AssertFatal.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/AssertFatal.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/Log.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.o"]
+    description: "Compiling core yoga/debug/Log.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/Log.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/NodeToString.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.o"]
+    description: "Compiling core yoga/debug/NodeToString.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/debug/NodeToString.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/event/event.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.o"]
+    description: "Compiling core yoga/event/event.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/event/event.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/node/LayoutResults.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.o"]
+    description: "Compiling core yoga/node/LayoutResults.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/node/LayoutResults.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.d"
+
+  "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.o":
+    tool: clang
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/yoga/node/Node.cpp"]
+    outputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.o"]
+    description: "Compiling core yoga/node/Node.cpp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/index/store","-I","/Users/yun/Desktop/GitHubProject/yoga","-I/Users/yun/Desktop/GitHubProject/yoga","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.d","-std=c++20","-c","/Users/yun/Desktop/GitHubProject/yoga/yoga/node/Node.cpp","-o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.o"]
+    deps: "/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.d"
+
+  "<core-debug.module>":
+    tool: phony
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGEnums.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/YGValue.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/Yoga.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Baseline.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/Cache.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/CalculateLayout.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/FlexLine.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/algorithm/PixelGrid.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/config/Config.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/AssertFatal.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/Log.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/debug/NodeToString.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/event/event.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/LayoutResults.cpp.o","/Users/yun/Desktop/GitHubProject/yoga/.build/x86_64-apple-macosx/debug/core.build/yoga/node/Node.cpp.o"]
+    outputs: ["<core-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/yun/Desktop/GitHubProject/yoga/","/Users/yun/Desktop/GitHubProject/yoga/Package.swift","/Users/yun/Desktop/GitHubProject/yoga/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

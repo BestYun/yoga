@@ -6,6 +6,9 @@
  */
 
 #import <UIKit/UIKit.h>
+//#import "Yoga.h"
+//#import "YGEnums.h"
+//#import "YGMacros.h"
 #import <yoga/YGEnums.h>
 #import <yoga/YGMacros.h>
 #import <yoga/Yoga.h>
@@ -114,6 +117,7 @@ typedef NS_OPTIONS(NSInteger, YGDimensionFlexibility) {
 @property(nonatomic, readwrite, assign) CGFloat columnGap;
 @property(nonatomic, readwrite, assign) CGFloat rowGap;
 @property(nonatomic, readwrite, assign) CGFloat gap;
+
 
 // Yoga specific properties, not compatible with flexbox specification
 @property(nonatomic, readwrite, assign) CGFloat aspectRatio;

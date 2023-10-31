@@ -470,19 +470,30 @@ static void YGApplyLayoutToViewHierarchy(UIView* view, BOOL preserveOrigin) {
 
   const YGLayout* yoga = view.yoga;
 
-  if (!yoga.isIncludedInLayout) {
+  if (!yoga.isIncludedInLayout || !yoga.isEnabled) {
     return;
   }
 
   YGNodeRef node = yoga.node;
+  float left = YGNodeLayoutGetLeft(node);
+  float top = YGNodeLayoutGetTop(node);
+    //防止nan
+  left = isnan(left) ? 0 : left;
+  top = isnan(top) ? 0 : top;
+
   const CGPoint topLeft = {
-      YGNodeLayoutGetLeft(node),
-      YGNodeLayoutGetTop(node),
+        left,
+        top,
   };
 
+  float width = YGNodeLayoutGetWidth(node);
+  width = isnan(width) ? 0 : width;
+  float height = YGNodeLayoutGetHeight(node);
+  height = isnan(height) ? 0 : height;
+    
   const CGPoint bottomRight = {
-      topLeft.x + YGNodeLayoutGetWidth(node),
-      topLeft.y + YGNodeLayoutGetHeight(node),
+      topLeft.x + width,
+      topLeft.y + height,
   };
 
   const CGPoint origin = preserveOrigin ? view.frame.origin : CGPointZero;
