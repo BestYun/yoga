@@ -7,7 +7,7 @@ Yoga is an embeddable and performant flexbox layout engine with bindings for mul
 ---
 #### Cocoapods
 ```
-pod 'YogaKit', :git => 'https://github.com/BestYun/yoga.git', :tag => '2.0.0'
+pod 'FlexBoxYogaKit', '~> 2.0.0.3'
 ```
 
 
