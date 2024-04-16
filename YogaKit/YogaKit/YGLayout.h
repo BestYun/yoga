@@ -178,5 +178,5 @@ typedef NS_OPTIONS(NSInteger, YGDimensionFlexibility) {
  Mark that a view's layout needs to be recalculated. Only works for leaf views.
  */
 - (void)markDirty;
-
+@property(nonatomic, weak, readonly) UIView* view;
 @end

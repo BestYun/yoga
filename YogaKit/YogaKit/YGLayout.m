@@ -160,7 +160,7 @@ static YGConfigRef globalConfig;
 
 @interface YGLayout ()
 
-@property(nonatomic, weak, readonly) UIView* view;
+
 @property(nonatomic, assign, readonly) BOOL isUIView;
 
 @end
