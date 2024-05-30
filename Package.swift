@@ -11,9 +11,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "yoga",
+    name: "FlexBoxYoga",
     products: [
-        .library(name: "yoga", targets: [ "core" ])
+        .library(name: "FlexBoxYoga", targets: [ "core" ])
     ],
     targets: [
         .target(
